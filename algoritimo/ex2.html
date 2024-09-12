@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><input type="number" id="idadetoCheck" value="18"></p>
+    <button onclick="myFunction()">test</button>
+    <p id = "demon"></p>
+    <script>
+        const idades = [3,10, 18, 20];
+        function checkIdade(idades){
+         return idades > 18
+         document.getElementById("idadetoCheck").valvue; 
+        }
+        function myFunction(){
+            document.getElementById("demon").innerHTML = idades.find(checkIdade)
+        }
+        
+    </script>
+</body>
+</html>

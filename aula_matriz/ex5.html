@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        const frutas = ["banana", "laranja","maçã","manga"];
+        const list = frutas.entries();
+        let texto = " ";
+        for(let x of list){
+            texto = texto + x  + "<br>";
+        }
+        document.getElementById("demo").innerHTML = texto;
+    </script>
+</body>
+</html>
