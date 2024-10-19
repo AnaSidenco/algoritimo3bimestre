@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2e5f3d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container principal */
+.contem {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* Estilo para o título */
+h1 {
+  text-align: center;
+  color: #141714;
+  margin-bottom: 20px;
+}
+
+/* Estilo para os rótulos (labels) e inputs */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #435746;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* Estilo para o botão */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo para o total de participantes */
+#totalParticipantes {
+  text-align: center;
+  color: #2b7c3b;
+  margin-top: 20px;
+}
+
+/* Estilo para a lista de participantes */
+#listaParticipantes {
+  list-style-type: none;
+  padding: 0;
+}
+
+#listaParticipantes li {
+  background-color: #f9f9f9;
+  margin: 5px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
